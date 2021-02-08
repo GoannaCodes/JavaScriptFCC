@@ -1,3 +1,4 @@
+# JavaScript Variables
 Declare variables (undefined value):\
 `var myName;`
 
@@ -13,5 +14,5 @@ Initialise variables:\
   `var b;`\
   `b = a;` <- value of `b` is now 7, which was the value of `a`
   
- Variables & function names are case sensitive. Best practice is to utilise camelcase:\
+ Variables & function names are case sensitive. Best practice is to utilise camelcase:
    - `studlyCapVar, properCamelCase, titleCaseOver` are acceptable variable names
