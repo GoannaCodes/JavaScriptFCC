@@ -1,12 +1,13 @@
 # JavaScript Variables
-Declare variables (undefined value):\
+
+## Declare variables (undefined value):
 `var myName;`
 
-Store values:\
+## Store values:
 `var a;`\
 `a = 7;`
 
-Initialise variables:\
+## Initialise variables:
 `var a = 9;`
   - Can also store variable value to another new variable:\
   `var a;`\
