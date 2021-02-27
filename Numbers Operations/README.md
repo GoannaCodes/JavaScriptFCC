@@ -11,20 +11,6 @@ Multiplication:\
 Division:\
 `var quotient = 66 / 33;` <- outputs 2
 
-Incrementing:\
-`var myVar = 87;`\
-`myVar++;` <- now outputs 88
-
-This is the equivalent of doing:\
-`myVar = 87 + 1;` which also results in 88 and eliminates the need to make another assignment.
-
-Decrementing:\
-`var myVar = 11;`\
-`myVar--;` <- now outputs 10
-
-This is the equivalent of doing:\
-`myVar = 11 - 1;` which also results in 10 and eliminates the need to make another assignment.
-
 ## Compound Assignment
 It is common to use assignments to modify the contents of a variable.\
 There are operators which do both mathematical operation and assignment.
