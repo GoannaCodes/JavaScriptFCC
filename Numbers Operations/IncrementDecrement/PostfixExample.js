@@ -1,12 +1,3 @@
-/* Increment using i++;
-    var increment = 99;
-    increment++; <== now equal to 100
-
-    Above is the same as doing:
-      increment = increment + 1;
-    Which is still 99 + 1
-*/
-
 /* Postfix increment
     Assignment (y stores previous value of x = 3; now y = 3)
     Decrement (x is now incremented by 1; now x = 4 and does not affect value of y)
