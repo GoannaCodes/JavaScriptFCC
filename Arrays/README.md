@@ -2,18 +2,25 @@
 
 JavaScript array variables are used to store several pieces of data in one place.
 
-## Declaration
-`var sandwich = ["peanut butter", "jelly", "bread"]`\
-Use square brackets with each entry denoted by `""` (if string) and separated by `,`
+## Array Literal Declaration 
+`var sandwich = ["peanut butter", "jelly", "bread"];` <- array literal\
+Use square brackets with each entry denoted by `""` (if string) and separated by `,` 
 
 Arrays can contain both string and numbers:\
 `var myArray = ["a string", 2];`
 
-## Access & modifying entries
-Can access data inside arrays through indexes:\
-`var myArray = [50, 60, 70];` <- declaration\
-`var myData = myArray[0];` <- stores '50' in myData
+## JS Array Constructor Declaration
+Can also create an array using JavaScript's built-in array constructor:\
+`var cars = new Array("Volvo", "Holden", "Mazda");` 
 
-Entries of arrays can be changed freely:\
- `var myArray = [18, 64, 99];`\
- `myArray[0] = 45;` <- myArray is now `[45, 64, 99]`
+However, it should ideally be used if the array contains multiple entries. 
+
+If you wanted to declare an array with just one entry using the constructor:\
+`var points = new Array(40);` <- creates an array with 40 undefined elements\
+instead of `points = [40];` like intended
+
+## Empty Array Declaration
+Ideal to use array literal to declare empty arrays:\
+`var points = [];` <- like this (array literal)
+`var points = new Array();` <- array constructor
+
