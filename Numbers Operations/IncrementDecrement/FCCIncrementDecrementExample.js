@@ -7,4 +7,11 @@
 var increment = 99;
 increment++; // now equal to 100
 
-console.log("Increment value was 99 and is now ${increment}");
+/* Decrement using i--;
+   Below is the same as doing:
+    decrement = decrement - 1;
+   Which is still 55 - 1
+*/
+
+var decrement = 55; 
+decrement--; // now equal to 54
