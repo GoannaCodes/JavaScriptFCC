@@ -1,7 +1,7 @@
 # Nested Arrays
 
 Nested arrays are arrays that are contained in another array:\
-`var myArray = [["Daniel", 19], ["Harry", 21]]`
+`var myArray = [["Bulls", 23], ["White Sox", 45]]`
 
 ## Multi-dimensional arrays 
 Multi-dimensional arrays are array of arrays. Multiple brackets may be used to access specific information in multi-dimensional arrays:\
